@@ -120,6 +120,12 @@
                             <constraint firstItem="YOq-dQ-4aO" firstAttribute="leading" secondItem="aZI-wG-M5Q" secondAttribute="trailing" constant="12" id="zUp-OU-Dg6"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="blueField" destination="uTD-Oi-EsX" id="eIY-n8-d8u"/>
+                        <outlet property="colorDisplay" destination="e5G-JZ-tML" id="ZSm-4W-ua6"/>
+                        <outlet property="greenField" destination="HeR-Ey-ooV" id="py3-LO-MNP"/>
+                        <outlet property="redField" destination="gDS-4u-0yx" id="VXh-nh-j5H"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
